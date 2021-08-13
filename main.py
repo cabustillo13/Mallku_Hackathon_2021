@@ -1,8 +1,9 @@
 from sklearn.neighbors import KNeighborsClassifier
 import pandas as pd
+import matplotlib.pyplot as plt
 
 """Cargar información"""
-df = pd.read_csv("Dataset_Excel.csv", index_col=0)
+df = pd.read_csv("Dataset_Excel2.csv", index_col=0)
 
 """Armar el dataset -> Variables"""
 X = []
@@ -22,8 +23,19 @@ neigh = KNeighborsClassifier(n_neighbors=3)
 neigh.fit(X, y)
 KNeighborsClassifier(...)
 
+"""Graficar el modelo"""
+pd.plotting.scatter_matrix(df, c=y, figsize=(12, 12), marker='o', s=20, alpha=.8)
+plt.show()
+
 """¿Se produce o no se produce un incendio?"""
-print(neigh.predict([[2.1, 3.4, 6.7]]))
+print(neigh.predict([[12, 50, 8]]))
 
 """Probabilidad que ocurra un incendio"""
-print(neigh.predict_proba([[2.1, 3.4, 6.7]]))
+print(neigh.predict_proba([[12, 50, 8]]))
+
+"""
+Datos de prueba:
+7 de enero 2018     14.4, 60.2, 10
+16 de sept 2018     9, 83 ,7
+7 de dic 2018       12, 50, 8
+"""
