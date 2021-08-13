@@ -2,6 +2,8 @@ from sklearn.neighbors import KNeighborsClassifier
 import pandas as pd
 import matplotlib.pyplot as plt
 
+print("######################\n## STOP THE FIRE 4+ ##\n######################\n")
+
 """Cargar información"""
 df = pd.read_csv("Dataset_Excel2.csv", index_col=0)
 
@@ -26,6 +28,8 @@ KNeighborsClassifier(...)
 """Graficar el modelo"""
 pd.plotting.scatter_matrix(df, c=y, figsize=(12, 12), marker='o', s=20, alpha=.8)
 plt.show()
+
+var = input("Ingrese Temperatura, Humedad, Viento: ")
 
 """¿Se produce o no se produce un incendio?"""
 print(neigh.predict([[12, 50, 8]]))
