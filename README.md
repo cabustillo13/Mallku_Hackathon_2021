@@ -110,7 +110,6 @@ Link: https://www.conaf.cl/incendios-forestales/incendios-forestales-en-chile/es
 ***From the interpolation and these data, if we knew which exact days the fires occurred, we could make an estimate of which days these fires occur in order to predict future catastrophes.***
 
  ![Toolkit 3_1](https://github.com/cabustillo13/Mallku_Hackathon_2021/blob/main/Demo/graph_toolkit3.jpg)
- ![Toolkit 3_2](https://github.com/cabustillo13/Mallku_Hackathon_2021/blob/main/Demo/Tabla_Toolkit3.JPG)
 
 ### NOTE: You can also use files your own data for our APIs.
 
