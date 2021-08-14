@@ -5,6 +5,9 @@
  <p align="center"><b>Determine the probability that a heat source occurs under certain conditions.</b></p>
 </p>
 
+# Presentation PDF
+View our [presentation](https://github.com/cabustillo13/Mallku_Hackathon_2021/blob/main/Demo/Stop%20the%20fire%204%2B.pdf) to more details.
+
 # Requirements
 
 You can run this code in Python 2.7 and Python 3.x
@@ -111,7 +114,11 @@ Link: https://www.conaf.cl/incendios-forestales/incendios-forestales-en-chile/es
 
  ![Toolkit 3_1](https://github.com/cabustillo13/Mallku_Hackathon_2021/blob/main/Demo/graph_toolkit3.jpg)
 
-### NOTE: You can also use files your own data for our APIs.
+### NOTE: You can also use your own data for our APIs.
+
+# Team
+- [Carlos Bustillo](https://www.linkedin.com/in/carlos-bustillo/)
+- [Manuel Celio](https://www.linkedin.com/in/juan-manuel-celio-/)
 
 # License
 
